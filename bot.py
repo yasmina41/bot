@@ -12,5 +12,5 @@ water_ml = weight * 30
 water_l = water_ml / 1000
 #Выводим результат
 print(f"Приятно познакомиться, {name}!")
-print(f"Ваш индекс массы тела (Имт): {round(bmi, 1)}")
+print(f"Ваш индекс массы тела (ИМТ): {round(bmi, 1)}")
 print(f"Рекомендуемая норма воды в день: {round(water_l, 2)} л.")
