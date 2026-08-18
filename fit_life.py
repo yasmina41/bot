@@ -1,9 +1,7 @@
 name = input("Привет, как вас зовут? ")
-age = int(input("Сколько вам лет? "))
-weight = float(
-    input("Сколько вы весите (в кг)? "))
-height = float(
-    input("Какой у вас рост (в см)? "))
+age = int(input("Ваш возраст? "))
+weight = float(input("Ваш вес в кг? "))
+height = float(input("Ваш рост в см? "))
 #Переведем рост в метры
 height_m = height / 100
 #Считаем ИМТ
@@ -15,9 +13,8 @@ water_l = water_ml / 1000
 #Выводим результат
 print(f"Приятно познакомиться, {name}!")
 print(f"Ваш индекс массы тела (ИМТ): {round(bmi, 1)}")
-print(
-f"Рекомендуемая норма воды в день: {round(water_l, 2)} л."
-    )
+print(f"Ваша норма воды в день: {round(water_l, 2)} л." )
+
 
 
 
